@@ -2,7 +2,7 @@ install: |
     wget libsdl.org/release/SDL2-2.0.9.tar.gz
     tar xf SDL2-2.0.9.tar.gz
     cd SDL2-2.0.9
-    configure
+    ./configure
     make
     sudo make install
 language: cpp
