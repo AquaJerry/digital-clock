@@ -1,2 +1,3 @@
+install: apt install libsdl2-dev
 language: cpp
 script: make
