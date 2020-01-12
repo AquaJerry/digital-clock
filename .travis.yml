@@ -6,6 +6,6 @@ install: |
     make
     sudo make install
     cd ..
-    sudo apt install lldb
+    sudo apt install lldb-8
 language: cpp
-script: make
+script: make DB=lldb-8
