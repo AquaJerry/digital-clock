@@ -6,5 +6,6 @@ install: |
     make
     sudo make install
     cd ..
+    sudo apt install lldb
 language: cpp
 script: make
