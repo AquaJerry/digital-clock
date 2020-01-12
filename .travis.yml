@@ -6,6 +6,5 @@ install: |
     make
     sudo make install
     cd ..
-    sudo apt install gdb
 language: cpp
 script: make
